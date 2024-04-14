@@ -34,6 +34,7 @@ const TodoList = () => {
         value={newTodoTitle}
         onChange={(e) => setNewTodoTitle(e.target.value)}
         placeholder="Add a new todo..."
+        style={{ marginRight: "10px" }}
       />
       <button onClick={handleAddTodo}>Add Todo</button>
       <ul>
